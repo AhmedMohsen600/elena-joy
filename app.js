@@ -12,5 +12,6 @@ links.forEach(link => {
 link.addEventListener("click", ()=>{
   nav.classList.toggle("nav-open");
   burger.classList.toggle("toggle");
+  html.classList.toggle('no-scroll');
 });
 });

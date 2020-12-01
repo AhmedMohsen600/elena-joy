@@ -424,6 +424,11 @@ footer ul {
     height: 2rem;
     order: 1;
   }
+    .no-scroll {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+  }
 }
 
 @media screen and (max-width: 768px) {
